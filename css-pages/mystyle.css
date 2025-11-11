@@ -1,4 +1,4 @@
-*
+/* *
 {
     margin: 0;
     padding: 0;
@@ -107,11 +107,11 @@ h2, h3
     text-align: center;
     background-color: black;
     margin-bottom: 10px;
-}
+} */
 
 /*START OF BLUE */
 
-#blue nav 
+/* #blue nav 
 {
     background-color: rgb(38, 61, 68);
 }
@@ -168,11 +168,11 @@ h2, h3
 #blue p 
 {
     background-color: rgb(111, 153, 177);
-}
+} */
 
 /* start of Yellow (cope) Now Navy */
 
-#navy nav 
+/* #navy nav 
 {
     background-color: rgb(22, 26, 37);
 }
@@ -229,11 +229,11 @@ h2, h3
 #navy p 
 {
     background-color: rgb(39, 54, 73);
-}
+} */
 
 /* Start of purple */
 
-#purple nav 
+/* #purple nav 
 {
     background-color: rgb(26, 19, 29);
 }
@@ -290,4 +290,4 @@ h2, h3
 #purple p 
 {
     background-color: rgb(49, 36, 54);
-}
+} */
