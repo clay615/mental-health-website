@@ -102,26 +102,23 @@ h2, h3
 
 #teal aside
 {
-    width: 200px;
-    height: 400px;
+
     padding: 10px;
     margin-top: 10px;
     background-color: rgb(255, 255, 255);
     margin-right: 10px;
     margin-bottom: 10px;
-    float: left;
+ 
 }
 
 #teal section
 {
     background-color: rgb(255, 255, 255);
-    width: 710px;
-    height: 400px;
+
     margin-bottom: 10px;
     margin-top: 10px;
     padding: 10px;
-    float: right;
-    color: white;
+
 }
 
 #teal Footer
@@ -154,26 +151,23 @@ h2, h3
 
 #blue aside
 {
-    width: 200px;
-    height: 400px;
+
     padding: 10px;
     background-color: rgb(255, 255, 255);
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    float: left;
+
 }
 
 #blue section
 {
     background-color: rgb(255, 255, 255);
-    width: 710px;
-    height: 400px;
+
     margin-bottom: 10px;
     margin-top: 10px;
     padding: 10px;
-    float: right;
-    color: white;
+
 }
 
 #blue Footer
@@ -206,26 +200,22 @@ h2, h3
 
 #navy aside
 {
-    width: 200px;
-    height: 400px;
+
     padding: 10px;
     background-color: rgb(255, 255, 255);
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    float: left;
+
 }
 
 #navy section
 {
     background-color: rgb(255, 255, 255);
-    width: 710px;
-    height: 400px;
     margin-bottom: 10px;
     margin-top: 10px;
     padding: 10px;
-    float: right;
-    color: white;
+
 }
 
 #navy Footer
@@ -258,26 +248,23 @@ h2, h3
 
 #purple aside
 {
-    width: 200px;
-    height: 400px;
+    
     padding: 10px;
     background-color: rgb(255, 255, 255);
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    float: left;
+    
 }
 
 #purple section
 {
     background-color: rgb(255, 255, 255);
-    width: 710px;
-    height: 400px;
     margin-bottom: 10px;
     margin-top: 10px;
     padding: 10px;
-    float: right;
-    color: white;
+
+    
 }
 
 #purple Footer
@@ -290,3 +277,77 @@ h2, h3
     background-color: rgb(49, 36, 54);
 }
 /* end of purple */
+
+
+/* Start of layout */
+
+/* home */
+#home aside
+{
+    width: 200px;
+    height: 400px;
+    float: left;
+}
+
+#home section 
+{
+    width: 710px;
+    height: 400px;
+    float: left;
+}
+/* symp */
+#symp aside
+{
+    width: 200px;
+    height: 400px;
+    float: left;
+}
+
+#symp section 
+{
+    width: 710px;
+    height: 400px;
+    float: left;
+}
+/* cope */
+#cope aside
+{
+    width: 200px;
+    height: 400px;
+    float: left;
+}
+
+#cope section 
+{
+    width: 710px;
+    height: 400px;
+    float: left;
+}
+/* help */
+#help aside
+{
+    width: 200px;
+    height: 400px;
+    float: left;
+}
+
+#help section 
+{
+    width: 710px;
+    height: 400px;
+    float: left;
+}
+/* hotline */
+#hotline aside
+{
+    width: 200px;
+    height: 400px;
+    float: left;
+}
+
+#hotline section 
+{
+    width: 710px;
+    height: 400px;
+    float: left;
+}
