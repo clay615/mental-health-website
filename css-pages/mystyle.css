@@ -1,4 +1,4 @@
-/* *
+*
 {
     margin: 0;
     padding: 0;
@@ -24,14 +24,13 @@ nav
 nav ul 
 {
     display: inline;
-    padding: 130px;
 }
 nav li
 {
     display: inline;
     list-style-type: none;
-    padding-left: 40px;
-    padding-left: 40px;
+    padding-left: 15px;
+    padding-right: 20px;
     text-align: center;
     height: 20px;
     background-color: rgb(102, 194, 189);
@@ -60,6 +59,7 @@ aside
     height: 400px;
     padding: 10px;
     background-color: rgb(255, 255, 255);
+    margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
     float: left;
@@ -107,11 +107,11 @@ h2, h3
     text-align: center;
     background-color: black;
     margin-bottom: 10px;
-} */
+} 
 
 /*START OF BLUE */
 
-/* #blue nav 
+ /* #blue nav 
 {
     background-color: rgb(38, 61, 68);
 }
@@ -168,7 +168,7 @@ h2, h3
 #blue p 
 {
     background-color: rgb(111, 153, 177);
-} */
+}  */
 
 /* start of Yellow (cope) Now Navy */
 
