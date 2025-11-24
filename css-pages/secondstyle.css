@@ -23,7 +23,7 @@ nav
 
 nav ul
 {
-    display: inline;
+    display: block;
 }
 
 nav li
@@ -40,17 +40,22 @@ nav li
     
 }
 
-body
-{
-    background-color: rgb(19, 22, 36);
-}
-
 #container
 {
     background-color: rgb(0, 0, 0);
     width: 960px;
-    margin: 0 auto;
+    margin:  0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+body
+{
+    background-color: rgb(105, 87, 87);
+}
+
+
 
 footer
 {
@@ -74,6 +79,7 @@ p
 h1
 {
     text-align: center;
+    background-color: black;
 }
 
 h2, h3
@@ -85,6 +91,7 @@ h2, h3
 
 
 /* start of teal */
+
 #teal nav 
 {
     background-color: rgb(56, 126, 120);
@@ -95,10 +102,7 @@ h2, h3
     background-color: rgb(102, 194, 189);
 }
 
-#teal body
-{
-    background-color: rgb(19, 22, 36);
-}
+
 
 #teal aside
 {
@@ -284,58 +288,102 @@ h2, h3
 /* home */
 #home aside
 {
-    width: 200px;
+    width: 300px;
     height: 400px;
     float: left;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #home section 
 {
-    width: 710px;
-    height: 400px;
-    float: left;
+    width: 920px;
+    height: 250px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
+
+#home #image section
+{
+    width: 580px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
 /* symp */
 #symp aside
 {
     width: 200px;
     height: 400px;
-    float: left;
+    float: right;
+    
 }
 
 #symp section 
 {
-    width: 710px;
+    width: 690px;
     height: 400px;
+    margin-left: 10px;
     float: left;
+}
+
+#symp #long aside
+{
+    
+    width: 920px;
 }
 /* cope */
 #cope aside
 {
     width: 200px;
     height: 400px;
-    float: left;
+    float: right;
 }
 
 #cope section 
 {
-    width: 710px;
+    width: 920px;
     height: 400px;
+    float: left;
+    margin-left: 10px;
+}
+
+#cope #image aside
+{
+    width: 690px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
     float: left;
 }
 /* help */
 #help aside
 {
-    width: 200px;
+    width: 490px;
     height: 400px;
-    float: left;
+    float: right;
 }
 
 #help section 
 {
-    width: 710px;
+    width: 920px;
     height: 400px;
     float: left;
+    margin-left: 10px;
+}
+
+#help #image aside
+{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 10px;
+
 }
 /* hotline */
 #hotline aside
@@ -347,7 +395,25 @@ h2, h3
 
 #hotline section 
 {
-    width: 710px;
+    width: 920px;
     height: 400px;
     float: left;
+    margin-left: 10px;
+}
+
+#home .long section
+{
+    width: 200px;
+    height: 600px;
+}
+
+/* */
+#floatright
+{
+float: right;
+}
+
+#floatleft
+{
+float: left;
 }
