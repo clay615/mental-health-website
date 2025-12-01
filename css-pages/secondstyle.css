@@ -86,9 +86,18 @@ h2, h3
 {
     text-align: center;
     background-color: black;
-    margin-bottom: 10px;
+    
 }
 
+section
+{
+    border-radius: 10px;
+}
+
+aside
+{
+    border-radius: 10px;
+}
 
 /* start of teal */
 
@@ -213,6 +222,12 @@ h2, h3
 
 }
 
+#navy section ul
+{
+    background-color: rgb(167, 176, 197);
+    list-style-type: disc;
+}
+
 #navy section
 {
     background-color: rgb(255, 255, 255);
@@ -293,6 +308,7 @@ h2, h3
     float: left;
     margin-left: 10px;
     margin-right: 10px;
+    
 }
 
 #home section 
@@ -311,6 +327,7 @@ h2, h3
     height: 400px;
     margin-left: 10px;
     margin-right: 10px;
+    
 }
 
 
@@ -393,27 +410,60 @@ h2, h3
     float: left;
 }
 
-#hotline section 
+
+#hotline section #notitle
 {
     width: 920px;
     height: 400px;
     float: left;
     margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+#hotline div .box 
+{
+    width: 200px;
+    height: 300px;
+    padding: 30px;
+    background-color: rgb(49, 57, 66);
 }
 
+
+
+/* why is this here? */
 #home .long section
 {
     width: 200px;
     height: 600px;
 }
 
-/* */
-#floatright
-{
-float: right;
-}
+/* ,maybe temp place to store divs */
+ #symp aside div
+ {
+        background-color: rgb(255, 255, 255);
+        
+    }
+ #symp aside #notitle 
+ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+ }
 
-#floatleft
-{
-float: left;
-}
+ #symp #long p
+ {
+    width: 250px;
+ }
+
+ #symp div h3
+ {
+    width: 200px;
+    margin-top: 5px;
+ }
+
+ 
