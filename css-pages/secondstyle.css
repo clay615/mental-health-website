@@ -215,10 +215,11 @@ aside
 {
 
     padding: 10px;
-    background-color: rgb(255, 255, 255);
     margin-top: 10px;
+    background-color: rgb(255, 255, 255);
     margin-right: 10px;
     margin-bottom: 10px;
+    
 
 }
 
@@ -413,7 +414,7 @@ aside
 
 #hotline section #notitle
 {
-    width: 920px;
+    width: 810px;
     height: 400px;
     float: left;
     margin-left: 10px;

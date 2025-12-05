@@ -1,0 +1,149 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+header
+{
+    background-color: rgb(0, 0, 0);
+}
+
+nav
+{
+    height: 40px;
+    width: 920px;
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-style: double;
+    background-color: rgb(22, 26, 37);
+}
+
+nav ul
+{
+    display: block;
+}
+
+nav li
+{
+    display: inline;
+    list-style-type: none;
+    padding-left: 15px;
+    padding-right: 20px;
+    text-align: center;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    background-color: rgb(45, 56, 80);
+    
+}
+
+#container
+{
+    background-color: rgb(0, 0, 0);
+    width: 960px;
+    margin:  0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body
+{
+    background-color: rgb(105, 87, 87);
+}
+
+
+
+footer
+{
+    clear: both;
+    padding: 10px;
+    background-color:  rgb(227, 197, 46);
+}
+
+#imgcontainer
+{
+   display: flex;
+   justify-content: center;
+}
+
+p
+{
+    padding: 10px;
+    border-style:double;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(39, 54, 73);
+}
+
+h1
+{
+    text-align: center;
+    background-color: black;
+}
+
+h2, h3
+{
+    text-align: center;
+    background-color: black;
+    
+}
+
+section
+{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+aside
+{
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/*Common Illnesses*/
+
+
+/*Hotlines Page*/
+
+#hotline aside
+{
+    width: 200px;
+    height: 400px;
+    float: left;
+}
+
+
+#hotline section 
+{
+    
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    
+    
+    
+}
+#hotline .box 
+{
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    background-color:rgb(23, 25, 36)
+}
+
+#hotline ul
+{
+    list-style-type: none;
+}

@@ -1,18 +1,25 @@
-*
+* 
 {
     margin: 0;
     padding: 0;
-    color: rgb(255, 255, 255);
 }
 
-header
+#container
 {
-    background-color: rgb(0, 0, 0);
+    background-color: yellow;
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
-nav 
+body 
 {
-    background-color: rgb(56, 126, 120);
+    background-color: red;
+}
+
+nav
+{
     height: 40px;
     width: 920px;
     margin: auto;
@@ -21,10 +28,11 @@ nav
     border-style: double;
 }
 
-nav ul 
+nav ul
 {
-    display: inline;
+    display: block;
 }
+
 nav li
 {
     display: inline;
@@ -33,261 +41,43 @@ nav li
     padding-right: 20px;
     text-align: center;
     height: 20px;
-    background-color: rgb(102, 194, 189);
     padding-top: 10px;
     padding-bottom: 10px;
-    margin: auto;
+    margin-left: 10px;
     
-   
-}
-body 
-{
-    background-color: rgb(19, 22, 36);
-}
-
-#container 
-{
-    background-color: rgb(0, 0, 0);
-    width: 960px;
-    margin: 0 auto;
-}
-
-
-aside 
-{
-    width: 200px;
-    height: 400px;
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    float: left;
 }
 
 section
 {
-    background-color: rgb(255, 255, 255);
-    width: 710px;
-    height: 400px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
     margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 10px;
-    float: right;
-    color: white;
+    justify-content: space-evenly;
+    height: 600px;
+    border-style: double;
+    border-color: white;
+    
 }
 
-footer
+.box
 {
-    background-color:  rgb(227, 197, 46);
-    clear: both;
-    padding: 10px;
-}
-#imgcontainer
-{
-   display: flex;
-   justify-content: center;
-}
-
-p 
-{
-    padding: 10px;
-    background-color: rgb(84, 141, 139);
-    border-style:double;
-    border-color: rgb(255, 255, 255);
-}
-
-h1
-{
-    text-align: center;
-}
-
-h2, h3
-{
-    text-align: center;
-    background-color: black;
-    margin-bottom: 10px;
-} 
-
-/*START OF BLUE */
-
- /* #blue nav 
-{
-    background-color: rgb(38, 61, 68);
-}
-
-#blue nav li
-{
-    background-color: rgb(88, 133, 160);
-}
-#blue body 
-{
-    background-color: rgb(19, 22, 36);
-}
-
-#blue #container 
-{
-    background-color: rgb(0, 0, 0);
-    width: 960px;
-    margin: 0 auto;
-}
-
-
-#blue aside 
-{
+    
+    background-color: green;
+    margin: 10px;
+    height: 200px;
     width: 200px;
-    height: 400px;
     padding: 10px;
-    background-color: rgb(255, 255, 255);
-    margin-right: 10px;
-    margin-bottom: 10px;
+    border-style: double;
+    border-color: white;
 }
 
-#blue section
+h2
 {
-    background-color: rgb(255, 255, 255);
-    width: 710px;
-    height: 400px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 10px;
-    color: white;
+    background-color: purple;
 }
 
-#blue footer
+ul
 {
-    background-color:  rgb(227, 197, 46);
+    list-style-type: none;
 }
-
-#blue #imgcontainer
-{
-   display: flex;
-   justify-content: center;
-}
-
-#blue p 
-{
-    background-color: rgb(111, 153, 177);
-}  */
-
-/* start of Yellow (cope) Now Navy */
-
-/* #navy nav 
-{
-    background-color: rgb(22, 26, 37);
-}
-
-#navy nav li
-{
-    background-color: rgb(45, 56, 80);
-}
-#navy body 
-{
-    background-color: rgb(19, 22, 36);
-}
-
-#navy #container 
-{
-    background-color: rgb(0, 0, 0);
-    width: 960px;
-    margin: 0 auto;
-}
-
-
-#navy aside 
-{
-    width: 200px;
-    height: 400px;
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-#navy section
-{
-    background-color: rgb(255, 255, 255);
-    width: 710px;
-    height: 400px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 10px;
-    color: white;
-}
-
-#navy footer
-{
-    background-color:  rgb(227, 197, 46);
-}
-
-#navy #imgcontainer
-{
-   display: flex;
-   justify-content: center;
-}
-
-#navy p 
-{
-    background-color: rgb(39, 54, 73);
-} */
-
-/* Start of purple */
-
-/* #purple nav 
-{
-    background-color: rgb(26, 19, 29);
-}
-
-#purple nav li
-{
-    background-color: rgb(57, 40, 61);
-}
-#purple body 
-{
-    background-color: rgb(16, 5, 46);
-}
-
-#purple #container 
-{
-    background-color: rgb(0, 0, 0);
-    width: 960px;
-    margin: 0 auto;
-}
-
-
-#purple aside 
-{
-    width: 200px;
-    height: 400px;
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-#purple section
-{
-    background-color: rgb(255, 255, 255);
-    width: 710px;
-    height: 400px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 10px;
-    color: white;
-}
-
-#purple footer
-{
-    background-color:  rgb(227, 197, 46);
-}
-
-#purple #imgcontainer
-{
-   display: flex;
-   justify-content: center;
-}
-
-#purple p 
-{
-    background-color: rgb(49, 36, 54);
-} */
