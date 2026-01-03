@@ -62,7 +62,7 @@ footer
 {
     clear: both;
     padding: 10px;
-    background-color:  rgb(227, 197, 46);
+    background-color: rgb(26, 19, 29);
 }
 
 #imgcontainer
@@ -135,4 +135,17 @@ aside
     margin-left: 10px;
     margin-right: 10px;
     float: left;
+}
+
+#flex-container
+{
+    display: flex;
+    justify-content: space-around
+}
+
+.box
+{
+    margin: 5px;
+    border-style: solid;
+    border-color:black;
 }
