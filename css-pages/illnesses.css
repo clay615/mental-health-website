@@ -131,6 +131,7 @@ aside
     display: flex;
     padding-left: 80px;
     padding-top: 0px;
+    
 }
 
 #bottom
@@ -138,6 +139,7 @@ aside
     display: flex;
     padding-left: 110px;
     padding-top: 2px;
+   
 }
 
 #button
@@ -171,3 +173,5 @@ aside
 {
     background-color:rgb(228, 228, 228);
 }
+
+
