@@ -146,6 +146,8 @@ aside
     height: 400px;
     float: left;
     margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #help #image aside
@@ -155,4 +157,10 @@ aside
     float: left;
     margin-left: 10px;
 
+}
+
+#help section div
+{
+    border-style: solid;
+    border-color: black;
 }
