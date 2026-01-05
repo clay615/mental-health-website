@@ -179,3 +179,8 @@ aside
     border-style: solid;
     border-color:black;
 }
+
+.pics
+{
+    display: flex;
+}
