@@ -120,7 +120,7 @@ aside
 #symp section 
 {
     width: 690px;
-    height: 400px;
+    
     margin-left: 10px;
     float: left;
 }
@@ -136,14 +136,14 @@ aside
 #help aside
 {
     width: 490px;
-    height: 400px;
+    
     float: right;
 }
 
 #help section 
 {
     width: 920px;
-    height: 400px;
+    
     float: left;
     margin-left: 10px;
     display: flex;
@@ -153,7 +153,7 @@ aside
 #help #image aside
 {
     width: 400px;
-    height: 400px;
+    
     float: left;
     margin-left: 10px;
 
