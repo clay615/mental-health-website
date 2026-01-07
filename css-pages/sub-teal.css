@@ -172,7 +172,7 @@ aside
 
 #long .box
 {
-    background-color:rgb(228, 228, 228);
+    background-color:rgba(228, 228, 228, 0);
 }
 
 header h1
