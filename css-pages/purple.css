@@ -12,33 +12,38 @@ header
 
 nav
 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
     height: 40px;
     width: 920px;
     margin: auto;
-    padding-top: 20px;
-    margin-bottom: 20px;
-    border-style: double;
-    background-color: rgb(26, 19, 29);
+    background-color: rgb(56, 126, 120);
+    display: flex;
+    align-items: center;
+    border-style: groove;
+    border-color: white;
 }
 
 nav ul
 {
-    display: block;
+    width: 920px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav li
 {
-    display: inline;
+    
     list-style-type: none;
     padding-left: 15px;
-    padding-right: 20px;
+    padding-right: 15px;
     text-align: center;
     height: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-left: 10px;
-    background-color: rgb(57, 40, 61);
-    
+    background-color: rgb(102, 194, 189);
 }
 
 #container
@@ -62,7 +67,7 @@ footer
 {
     clear: both;
     padding: 10px;
-    background-color: rgb(26, 19, 29);
+    background-color: rgb(56, 126, 120);
 }
 
 #imgcontainer
@@ -73,10 +78,13 @@ footer
 
 p
 {
-    padding: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     border-style:double;
     border-color: rgb(255, 255, 255);
-    background-color: rgb(49, 36, 54);
+    background-color: rgb(84, 141, 139);
 }
 
 h1
@@ -148,4 +156,15 @@ aside
     margin: 5px;
     border-style: solid;
     border-color:black;
+}
+
+header h1
+{
+    padding: 5px;
+    font-size: 3.0em;
+}
+
+h1, h2, h3
+{
+    padding-top: 5px;
 }

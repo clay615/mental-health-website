@@ -5,12 +5,6 @@
     color: white;
 }
 
-*
-{
-    margin: 0;
-    padding: 0;
-    color: rgb(255, 255, 255);
-}
 
 header
 {
@@ -19,31 +13,37 @@ header
 
 nav
 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
     height: 40px;
     width: 920px;
     margin: auto;
-    padding-top: 20px;
-    margin-bottom: 20px;
-    border-style: double;
     background-color: rgb(56, 126, 120);
+    display: flex;
+    align-items: center;
+    border-style: groove;
+    border-color: white;
 }
 
 nav ul
 {
-    display: block;
+    width: 920px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav li
 {
-    display: inline;
+    
     list-style-type: none;
     padding-left: 15px;
-    padding-right: 20px;
+    padding-right: 15px;
     text-align: center;
     height: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-left: 10px;
     background-color: rgb(102, 194, 189);
 }
 
@@ -77,7 +77,10 @@ footer
 
 p
 {
-    padding: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     border-style:double;
     border-color: rgb(255, 255, 255);
     background-color: rgb(84, 141, 139);
@@ -98,8 +101,7 @@ h2, h3
 
 section
 {
-    width: 450px;
-    height: 300px;
+    width: 410px;
     margin-left: 10px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
@@ -119,24 +121,26 @@ aside
     margin-top: 10px;
     background-color: rgba(0, 0, 0, 0);
     margin-right: 10px;
-    margin-bottom: 10px;
-    width: 400px;
-    height: 250px;
+    margin-bottom: 50px;
+    width: 440px;
+    height: 270px;
     margin-left: 10px;
     
 }
 
 #top
 {
+    width: 200px;
     display: flex;
-    padding-left: 80px;
+    padding-left: 5px;
     padding-top: 0px;
 }
 
 #bottom
 {
     display: flex;
-    padding-left: 110px;
+    width: 160px;
+    padding-left: 5px;
     padding-top: 2px;
 }
 
@@ -150,7 +154,6 @@ aside
 #long
 {
     width: 920px;
-    height: 300px;
     margin-left: 10px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
@@ -170,4 +173,15 @@ aside
 #long .box
 {
     background-color:rgb(228, 228, 228);
+}
+
+header h1
+{
+    padding: 5px;
+    font-size: 3.0em;
+}
+
+h1, h2, h3
+{
+    padding-top: 5px;
 }
