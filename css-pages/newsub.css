@@ -47,6 +47,16 @@ nav li
     background-color: rgb(102, 194, 189);
 }
 
+nav a:link
+{
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
 #container
 {
     background-image: url(../images/skull-xray-homepage.jpg);

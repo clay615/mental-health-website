@@ -47,6 +47,20 @@ nav li
     padding-bottom: 10px;
     background-color: rgb(102, 194, 189);
 }
+a:link
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+footer a:link
+{
+    text-decoration: underline;
+}
 
 #container
 {
