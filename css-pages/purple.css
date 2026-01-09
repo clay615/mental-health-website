@@ -12,11 +12,11 @@ header
 
 nav
 {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 1.041%;
+    padding-bottom: 1.041%;
     margin-bottom: 20px;
-    height: 40px;
-    width: 920px;
+    height: 4.166%;
+    width: 95.833%;
     margin: auto;
     background-color: rgb(56, 126, 120);
     display: flex;
@@ -37,21 +37,25 @@ nav li
 {
     
     list-style-type: none;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1.562%;
+    padding-right: 1.562%;
     text-align: center;
-    height: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 2.083%;
+    padding-top: 1.041%;
+    padding-bottom: 1.041%;
     background-color: rgb(102, 194, 189);
 }
-
-nav a:link
+a:link
 {
     text-decoration: none;
 }
 
-nav a:hover
+a:hover
+{
+    text-decoration: underline;
+}
+
+footer a:link
 {
     text-decoration: underline;
 }
@@ -59,7 +63,8 @@ nav a:hover
 #container
 {
     background-color: rgb(0, 0, 0);
-    width: 960px;
+    max-width: 960px;
+    width: 94%;
     margin:  0 auto;
     display: flex;
     flex-direction: column;
@@ -76,7 +81,7 @@ body
 footer
 {
     clear: both;
-    padding: 10px;
+    padding: 1.041%;
     background-color: rgb(56, 126, 120);
 }
 
@@ -88,10 +93,10 @@ footer
 
 p
 {
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.520%;
+    padding-left: 1.041%;
+    padding-right: 1.041%;
+    padding-bottom: 1.041%;
     border-style:double;
     border-color: rgb(255, 255, 255);
     background-color: rgb(84, 141, 139);
@@ -113,47 +118,46 @@ h2, h3
 
 section
 {
-    border-radius: 10px;
+    border-radius: 1.041%;
     background-color: rgb(255, 255, 255);
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 10px;
+    margin-bottom: 1.041%;
+    margin-top: 1.041%;
+    padding: 1.041%;
 }
 
 aside
 {
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 1.041%;
+    padding: 1.041%;
+    margin-top: 1.041%;
     background-color: rgb(255, 255, 255);
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 1.041%;
+    margin-bottom: 1.041%;
 }
 
 /*Coping Page*/
 
+main
+{
+    display: flex;
+    justify-content: space-around;
+}
 #cope aside
 {
-    width: 200px;
-    height: 400px;
-    float: right;
+    width: 27.083%;
 }
 
 #cope section 
 {
-    width: 920px;
-    
-    float: left;
-    margin-left: 10px;
+    width: 95.833%;
+    margin-left: 1.041%;
 }
 
 #cope #image aside
 {
-    width: 690px;
-    height: 400px;
-    margin-left: 10px;
-    margin-right: 10px;
-    float: left;
+    width: 90.875%;
+    margin-left: 1.041%;
+    margin-right: 1.041%;
 }
 
 #flex-container
@@ -162,20 +166,26 @@ aside
     justify-content: space-around
 }
 
+#image-flex
+{
+    display: flex;
+    justify-content: space-around
+}
+
 .box
 {
-    margin: 5px;
+    margin: 0.520%;
     border-style: solid;
     border-color:black;
 }
 
 header h1
 {
-    padding: 5px;
+    padding: 0.520%;
     font-size: 3.0em;
 }
 
 h1, h2, h3
 {
-    padding-top: 5px;
+    padding-top: 0.520%;
 }

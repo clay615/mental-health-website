@@ -13,11 +13,11 @@ header
 
 nav
 {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 1.041%;
+    padding-bottom: 1.041%;
     margin-bottom: 20px;
-    height: 40px;
-    width: 920px;
+    height: 4.166%;
+    width: 95.833%;
     margin: auto;
     background-color: rgb(56, 126, 120);
     display: flex;
@@ -38,15 +38,14 @@ nav li
 {
     
     list-style-type: none;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1.562%;
+    padding-right: 1.562%;
     text-align: center;
-    height: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 2.083%;
+    padding-top: 1.041%;
+    padding-bottom: 1.041%;
     background-color: rgb(102, 194, 189);
 }
-
 a:link
 {
     text-decoration: none;
@@ -65,7 +64,8 @@ footer a:link
 #container
 {
     background-color: rgb(0, 0, 0);
-    width: 960px;
+    max-width: 960px;
+    width: 94%;
     margin:  0 auto;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,7 @@ body
 footer
 {
     clear: both;
-    padding: 10px;
+    padding: 1.041%;
     background-color: rgb(56, 126, 120);
 }
 
@@ -94,10 +94,10 @@ footer
 
 p
 {
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.520%;
+    padding-left: 1.041%;
+    padding-right: 1.041%;
+    padding-bottom: 1.041%;
     border-style:double;
     border-color: rgb(255, 255, 255);
     background-color: rgb(84, 141, 139);
@@ -114,34 +114,33 @@ h2, h3
 {
     text-align: center;
     background-color: black;
+    
 }
 
 section
 {
-    border-radius: 10px;
+    border-radius: 1.041%;
     background-color: rgb(255, 255, 255);
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    padding: 10px;
+    margin-bottom: 1.041%;
+    margin-top: 1.041%;
+    padding: 1.041%;
 }
 
 aside
 {
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 10px;
+    border-radius: 1.041%;
+    padding: 1.041%;
+    margin-top: 1.041%;
     background-color: rgb(255, 255, 255);
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 1.041%;
+    margin-bottom: 1.041%;
 }
 
 
 #hotline aside
 {
-    width: 200px;
-    height: 400px;
-    float: left;
+    width: 20.833%;
+    height: 41.666%;
 }
 
 
@@ -149,15 +148,15 @@ aside
 {
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
+    margin-bottom: 1.041%;
     justify-content: space-evenly;
-    width: 920px;
+    width: 95.833%;
 }
 #hotline .box 
 {
-    margin: 10px;
-    width: 250px;
-    padding: 10px;
+    margin: 1.041%;
+    width: 26.041%;
+    padding: 1.041%;
     background-color:rgb(23, 34, 36)
 }
 
@@ -168,11 +167,11 @@ aside
 
 header h1
 {
-    padding: 5px;
+    padding: 0.520%;
     font-size: 3.0em;
 }
 
 h1, h2, h3
 {
-    padding-top: 5px;
+    padding-top: 0.520%;
 }
