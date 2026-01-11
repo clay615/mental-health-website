@@ -211,3 +211,60 @@ h1, h2, h3
 {
     padding-top: 0.52%;
 }
+
+/*Start of Media Queries*/
+
+@media screen and (max-width: 800px)
+{ 
+    p
+    {
+        background-color: green;
+    }
+
+    #flex-container
+    {
+        display: block;
+    }
+
+    section
+    {
+        width: 90%;
+    }
+
+    aside 
+    {
+        
+    }
+
+    #container
+    {
+        display: block;
+    }
+
+    #nav-container
+    {
+        width: 45%;
+       
+    }
+
+
+    header
+    {
+        background-color: rgba(0, 128, 128, 0.2);
+    }
+
+    nav
+    {
+        display: flex;
+        justify-content: center;
+        width: 45%;
+        margin-left: 1.041%;
+    }
+
+    nav ul 
+    {
+        display: block;
+        width: 80%;
+    }
+
+}
