@@ -124,6 +124,7 @@ section
     margin-bottom: 1.041%;
     margin-top: 1.041%;
     padding: 1.041%;
+    margin-left: 1.041%;
 }
 
 aside
@@ -174,4 +175,33 @@ header h1
 h1, h2, h3
 {
     padding-top: 0.520%;
+}
+
+@media screen and (max-width: 800px)
+{ 
+
+    #nav-container
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul 
+    {
+        display: block;
+        width: 80%;
+    }
+
+    #nav-container h2 
+    {
+        display: block;
+        width: 50%;
+    }
 }

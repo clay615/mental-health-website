@@ -147,7 +147,13 @@ aside
 #symp aside
 {
     width: 20.833%;
+   
     
+}
+
+#symp aside h1
+{
+     font-size: 1em;
 }
 
 #symp section 
@@ -172,18 +178,29 @@ aside
 
 /*Help Page*/
 
+#help section div 
+{
+    background-color: rgb(84, 141, 139);
+}
+
 #help aside
 {
     width: 51.041%;
     
-    float: right;
+   
+}
+
+#help-two-container
+{
+    display: flex;
+    justify-content: space-around;
 }
 
 #help section 
 {
     width: 95.833%;
     
-    float: left;
+    
     margin-left: 1.041%;
     display: flex;
     justify-content: space-between;
@@ -191,10 +208,8 @@ aside
 
 #help #image aside
 {
-    width: 41.666%;
-    
-    float: left;
-    margin-left: 1.041%;
+    width: 90%;
+    margin-left: 2.041%;
 
 }
 
@@ -208,4 +223,65 @@ header h1
 {
     padding: 0.520%;
     font-size: 3.0em;
+}
+
+@media screen and (max-width: 780px)
+{ 
+
+    #nav-container
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul 
+    {
+        display: block;
+        width: 80%;
+    }
+
+    #nav-container h2 
+    {
+        display: block;
+        width: 50%;
+    }
+
+    #flex-container
+    {
+        display: block;
+    }
+
+    #symp section 
+    {
+        width: 96%;
+    }
+
+    #symp aside 
+    {
+        width: 96%;
+        margin-left: 1.041%;
+    }
+}
+
+@media screen and (max-width: 562px)
+{
+
+    #help-two-container
+    {
+        display: block;
+    }
+
+    #help aside 
+    {
+        width: 96%;
+        margin-left: 1.041%;
+
+    }
 }
