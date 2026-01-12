@@ -135,6 +135,16 @@ aside
     margin-bottom: 1.041%;
 }
 
+img
+{
+    width: 50%;
+}
+
+#invisible-headings
+{
+    display: none;
+}
+
 /*Coping Page*/
 
 main
@@ -150,13 +160,14 @@ main
 
 #cope section 
 {
-    width: 95.833%;
+    
     margin-left: 1.041%;
 }
 
-#cope #image aside
+ #image aside
 {
-    width: 90.875%;
+    height: 90%;
+    width: 95.833%;
     margin-left: 1.041%;
     margin-right: 1.041%;
 }
@@ -170,7 +181,9 @@ main
 #image-flex
 {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    width: 94%;
+    margin-left: 3.041%;
 }
 
 .box

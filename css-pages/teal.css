@@ -137,6 +137,11 @@ aside
     margin-bottom: 1.041%;
 }
 
+#invisible-headings
+{
+    display: none;
+}
+
 /*start of homepage*/
 
 #home-two-container
@@ -175,6 +180,13 @@ aside
     
 }
 
+#image img
+{
+    width: 100%;
+}
+
+
+
 /*Start of Donate*/
 
 #donate section
@@ -212,9 +224,16 @@ aside
     border-color:black;
 }
 
-.pics
+#pics
 {
     display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+}
+
+img 
+{
+    width: 49%;
 }
 
 header h1

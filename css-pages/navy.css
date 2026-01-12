@@ -137,6 +137,10 @@ aside
     margin-bottom: 1.041%;
 }
 
+#invisible-headings
+{
+    display: none;
+}
 
 #hotline aside
 {

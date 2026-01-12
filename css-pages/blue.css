@@ -136,6 +136,16 @@ aside
     margin-bottom: 1.041%;
 }
 
+img
+{
+    width: 100%;
+}
+
+#invisible-headings
+{
+    display: none;
+}
+
 /*Symptoms page*/
 
 #flex-container
