@@ -157,6 +157,11 @@ img
 
 #symp aside h1
 {
+    font-size: 2em;
+}
+
+#symp aside #clarify h1
+{
     font-size: 1em;
 }
 
