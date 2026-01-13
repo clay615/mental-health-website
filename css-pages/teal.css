@@ -37,7 +37,6 @@ nav ul
 
 nav li
 {
-    
     list-style-type: none;
     padding-left: 1.562%;
     padding-right: 1.562%;
@@ -47,6 +46,7 @@ nav li
     padding-bottom: 1.041%;
     background-color: rgb(102, 194, 189);
 }
+
 a:link
 {
     text-decoration: none;
@@ -77,8 +77,6 @@ body
 {
     background-color: rgb(105, 87, 87);
 }
-
-
 
 footer
 {
@@ -157,7 +155,6 @@ aside
     height: 41.666%;
     margin-left: 1.041%;
     margin-right: 1.041%;
-    
 }
 
 #home section 
@@ -177,7 +174,6 @@ aside
     margin-right: 1.041%;
     display: flex;
     justify-content: center;
-    
 }
 
 #image img
@@ -185,21 +181,17 @@ aside
     width: 100%;
 }
 
-
-
 /*Start of Donate*/
 
 #donate section
 {
     width: 72.196%;
-   
     margin-left: 12.5%;
 }
 
 #donate aside
 {
     width: 95.833%;
-    
     margin-left: 1.041%;
 }
 
@@ -207,7 +199,11 @@ aside
 {
     width: 95.833%;
     margin-left: 1.041%;
-    
+}
+
+#donate .box ul 
+{
+    padding: 12.041%;
 }
 
 #flex-container
@@ -278,7 +274,6 @@ h1, h2, h3
 
 @media screen and (max-width: 650px)
 {
-
     #home-two-container
     {
         display: block;

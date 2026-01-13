@@ -45,6 +45,7 @@ nav li
     padding-bottom: 1.041%;
     background-color: rgb(102, 194, 189);
 }
+
 a:link
 {
     text-decoration: none;
@@ -75,8 +76,6 @@ body
 {
     background-color: rgb(105, 87, 87);
 }
-
-
 
 footer
 {
@@ -145,7 +144,6 @@ aside
     margin-left: 10px;
 }
 
-
 #top
 {
     width: 200px;
@@ -175,7 +173,6 @@ aside
 {
     opacity: 10%;
 }
-
 
 #long
 {
@@ -226,11 +223,10 @@ h1, h2, h3
 {
     display: none;
 }
-/*Start of Media Queries*/
 
+/*Start of Media Queries*/
 @media screen and (max-width: 800px)
 { 
-
     #flex-container
     {
         display: block;
@@ -240,11 +236,6 @@ h1, h2, h3
     {
         width: 90%;
         margin-left: 4%;
-    }
-
-    aside 
-    {
-        
     }
 
     #container
@@ -276,7 +267,6 @@ h1, h2, h3
         display: block;
         width: 50%;
     }
-
 }
 
 @media screen and (max-width: 560px)
@@ -307,5 +297,4 @@ h1, h2, h3
         height: 40%;
         opacity: 90%;
     }
-
 }

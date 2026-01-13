@@ -36,7 +36,6 @@ nav ul
 
 nav li
 {
-    
     list-style-type: none;
     padding-left: 1.562%;
     padding-right: 1.562%;
@@ -77,8 +76,6 @@ body
     background-color: rgb(105, 87, 87);
 }
 
-
-
 footer
 {
     clear: both;
@@ -114,7 +111,6 @@ h2, h3
 {
     text-align: center;
     background-color: black;
-    
 }
 
 section
@@ -157,21 +153,17 @@ img
 #symp aside
 {
     width: 20.833%;
-   
-    
 }
 
 #symp aside h1
 {
-     font-size: 1em;
+    font-size: 1em;
 }
 
 #symp section 
 {
-    width: 70.875%;
-    
+    width: 70.875%;   
     margin-left: 1.041%;
-    
 }
 
 #long-flex
@@ -182,22 +174,14 @@ img
 
 #symp #long aside
 {
-    
     width: 95.833%;
 }
 
 /*Help Page*/
 
-#help section div 
-{
-    background-color: rgb(84, 141, 139);
-}
-
 #help aside
 {
     width: 51.041%;
-    
-   
 }
 
 #help-two-container
@@ -209,8 +193,6 @@ img
 #help section 
 {
     width: 95.833%;
-    
-    
     margin-left: 1.041%;
     display: flex;
     justify-content: space-between;
@@ -227,6 +209,7 @@ img
 {
     border-style: solid;
     border-color: black;
+    background-color: rgb(84, 141, 139);
 }
 
 header h1
@@ -292,6 +275,5 @@ header h1
     {
         width: 96%;
         margin-left: 1.041%;
-
     }
 }

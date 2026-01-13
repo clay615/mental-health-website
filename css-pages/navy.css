@@ -77,8 +77,6 @@ body
     background-color: rgb(105, 87, 87);
 }
 
-
-
 footer
 {
     clear: both;
@@ -157,12 +155,18 @@ aside
     justify-content: space-evenly;
     width: 95.833%;
 }
+
 #hotline .box 
 {
     margin: 1.041%;
     width: 26.041%;
     padding: 1.041%;
     background-color:rgb(23, 34, 36)
+}
+
+#hotline .box li
+{
+    padding: 2.041%;
 }
 
 #hotline ul

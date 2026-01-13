@@ -45,6 +45,7 @@ nav li
     padding-bottom: 1.041%;
     background-color: rgb(102, 194, 189);
 }
+
 a:link
 {
     text-decoration: none;
@@ -75,8 +76,6 @@ body
 {
     background-color: rgb(105, 87, 87);
 }
-
-
 
 footer
 {
@@ -113,7 +112,6 @@ h2, h3
 {
     text-align: center;
     background-color: black;
-    
 }
 
 section
@@ -160,11 +158,10 @@ main
 
 #cope section 
 {
-    
     margin-left: 1.041%;
 }
 
- #image aside
+#image aside
 {
     height: 90%;
     width: 95.833%;
@@ -206,7 +203,6 @@ h1, h2, h3
 
 @media screen and (max-width: 800px)
 { 
-
     #nav-container
     {
         width: 100%;
