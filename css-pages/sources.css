@@ -139,6 +139,7 @@ aside
 section ul
 {
     background-color: rgb(68, 114, 112);
+    box-shadow: 10px 10px 8px #292929;
 }
 
 section li 
@@ -157,4 +158,24 @@ header h1
 h1, h2, h3
 {
     padding-top: 5px;
+}
+
+@media screen and (max-width: 600px)
+{
+
+    #flex-container 
+    {
+        display: block;
+        margin-left: 2.041%;
+    }
+    
+    section 
+    {
+        width: 96%;
+    }
+
+    aside 
+    {
+        width: 96%;
+    }
 }
